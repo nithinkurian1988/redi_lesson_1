@@ -1,10 +1,7 @@
-import sys
-import signal
 
 try:
   while True:
-    i_data = input()
-    print(i_data)  
+    user_input = input()
+    print(user_input)  
 except KeyboardInterrupt:
   print("Ctrl-C pressed!")
-  sys.exit(0)
